@@ -203,6 +203,7 @@ int main()
 					int przelew;
 					cin >> przelew;
 					bank1.Przelew(numer_wl, numer_adr, przelew);
+					(*(akt_konto)).WypiszSaldo();
 					cin.get();
 					cin.get();
 					continue;

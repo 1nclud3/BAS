@@ -157,8 +157,6 @@ void Bank::Przelew(int numer_konta_wlasciciela, int numer_konta_adresata, int kw
 						baza_kont[j].Saldo((baza_kont[j].Saldo() + kwota));
 						baza_kont[i].Saldo((baza_kont[i].Saldo() - kwota));
 						cout << "Kwota zostala wyslana\n";
-						cout << "Na koncie pozostalo: ";
-						baza_kont[i].Saldo();
 						return;
 					}
 		}
