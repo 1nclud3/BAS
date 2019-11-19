@@ -1,4 +1,5 @@
 Debug/
+.git/
 .vs/
 BAS/Debug/
 *.[jsrd]
